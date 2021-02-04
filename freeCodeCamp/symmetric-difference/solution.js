@@ -16,7 +16,6 @@ function sym() {
         return newArr
     }
     const reducer = (accumulator, currentValue) => helper(accumulator, currentValue)
-    console.log(args.reduce(reducer))
     return args.reduce(reducer)
 
 }
